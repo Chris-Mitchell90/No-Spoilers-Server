@@ -48,7 +48,7 @@ First clone both repos and enter the server:
 
 To finish connecting back-end dependencies, ensure your MongoDB is up and running, and create a .env file with the following information
 
-    SERVER_PORT = Your port of choice
+    SERVER_PORT = This should be 3001 to work with the client
     SECRETKEY = A random string of letters and numbers for encryption
     DB_URL = Your MongoDB localhost or similar url
     DB_NAME = Your database name
